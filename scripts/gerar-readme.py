@@ -46,10 +46,19 @@ def build(repos):
     A("# 🎨 ArtCraft — forks com tradução pt-BR")
     A("")
     A("Este repositório reúne os sete aplicativos da **suíte ArtCraft** — forks com a **interface traduzida para o "
-      "português do Brasil (pt-BR)**. As ferramentas reimplementam, em **Rust puro** e de forma *clean-room*, as "
-      "ferramentas de criação da Adobe.")
+      "português do Brasil (pt-BR)**. É um conjunto **similar ao pacote Adobe (Creative Cloud)**: cada aplicativo "
+      "ocupa o lugar de um software da Adobe, reimplementado em **Rust puro** e de forma *clean-room*.")
     A("")
     A(f"- Perfil: https://github.com/{OWNER}")
+    A("")
+
+    # ---- Similar ao pacote Adobe ----
+    A("## 📦 Similar ao pacote Adobe")
+    A("")
+    A("Cada aplicativo da suíte **faz o lugar de um software da Adobe**:")
+    A("")
+    for repo, nome, prop, adobe in SUITE:
+        A(f"- **{nome}** ({prop}) → no lugar do **{adobe}**")
     A("")
 
     # ---- Suíte ArtCraft ----

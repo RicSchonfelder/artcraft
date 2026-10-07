@@ -1,8 +1,20 @@
 # 🎨 ArtCraft — forks com tradução pt-BR
 
-Este repositório reúne os sete aplicativos da **suíte ArtCraft** — forks com a **interface traduzida para o português do Brasil (pt-BR)**. As ferramentas reimplementam, em **Rust puro** e de forma *clean-room*, as ferramentas de criação da Adobe.
+Este repositório reúne os sete aplicativos da **suíte ArtCraft** — forks com a **interface traduzida para o português do Brasil (pt-BR)**. É um conjunto **similar ao pacote Adobe (Creative Cloud)**: cada aplicativo ocupa o lugar de um software da Adobe, reimplementado em **Rust puro** e de forma *clean-room*.
 
 - Perfil: https://github.com/RicSchonfelder
+
+## 📦 Similar ao pacote Adobe
+
+Cada aplicativo da suíte **faz o lugar de um software da Adobe**:
+
+- **PhotoCraft** (Edição de imagens) → no lugar do **Adobe Photoshop**
+- **FilmCraft** (Edição de vídeo, cor e som) → no lugar do **Adobe Premiere Pro**
+- **LightCraft** (Biblioteca de fotos e revelação RAW) → no lugar do **Adobe Lightroom**
+- **EffectCraft** (Motion graphics e efeitos visuais) → no lugar do **Adobe After Effects**
+- **PrintCraft** (Workbench de PDF) → no lugar do **Adobe Acrobat**
+- **DesignCraft** (Layout de página e publicação) → no lugar do **Adobe InDesign**
+- **VectorCraft** (Ilustração vetorial) → no lugar do **Adobe Illustrator**
 
 ## ✨ Os 7 aplicativos traduzidos
 
