@@ -43,18 +43,17 @@ def build(repos):
 
     L = []
     A = L.append
-    A("# 🎨 ArtCraft — hub dos repositórios de {0}".format(OWNER))
+    A("# 🎨 ArtCraft — forks com tradução pt-BR")
     A("")
-    A("Bem-vindo(a)! Este repositório centraliza os **links para todos os meus repositórios no GitHub**, "
-      "com destaque para a **suíte ArtCraft** — sete aplicativos open-source que reimplementam, em **Rust puro** e "
-      "de forma *clean-room*, as ferramentas de criação da Adobe, todos com **tradução da interface para o "
-      "português do Brasil (pt-BR)**.")
+    A("Este repositório reúne os sete aplicativos da **suíte ArtCraft** — forks com a **interface traduzida para o "
+      "português do Brasil (pt-BR)**. As ferramentas reimplementam, em **Rust puro** e de forma *clean-room*, as "
+      "ferramentas de criação da Adobe.")
     A("")
     A(f"- Perfil: https://github.com/{OWNER}")
     A("")
 
     # ---- Suíte ArtCraft ----
-    A("## ✨ A suíte ArtCraft")
+    A("## ✨ Os 7 aplicativos traduzidos")
     A("")
     A("| Aplicativo | Propósito | Reimplementação de | Meu fork (pt-BR) | Upstream | Tradução pt-BR |")
     A("|---|---|---|---|---|---|")
@@ -69,32 +68,6 @@ def build(repos):
     A("Site da suíte: https://getartcraft.com · Discord: https://discord.gg/artcraft")
     A("")
 
-    # ---- Meus projetos (não-forks) ----
-    A("## 📦 Meus projetos")
-    A("")
-    mine = [r for r in repos if not r["isFork"]]
-    mine.sort(key=lambda r: r["name"].lower())
-    if mine:
-        A("| Repositório | Descrição |")
-        A("|---|---|")
-        for r in mine:
-            vis = "🔒 " if r["visibility"] == "PRIVATE" else ""
-            A(f"| {vis}[{r['name']}](https://github.com/{OWNER}/{r['name']}) | {md_esc(r['description'])} |")
-        A("")
-
-    # ---- Forks (fora da suíte ArtCraft) ----
-    A("## 🔀 Forks (demais)")
-    A("")
-    forks = [r for r in repos if r["isFork"] and r["name"] not in {s[0] for s in SUITE}]
-    forks.sort(key=lambda r: r["name"].lower())
-    if forks:
-        A("| Repositório | Descrição |")
-        A("|---|---|")
-        for r in forks:
-            vis = "🔒 " if r["visibility"] == "PRIVATE" else ""
-            A(f"| {vis}[{r['name']}](https://github.com/{OWNER}/{r['name']}) | {md_esc(r['description'])} |")
-        A("")
-
     A("## ♻️ Atualizar esta lista")
     A("")
     A("```bash")
@@ -104,7 +77,7 @@ def build(repos):
     A("")
     A("---")
     A("")
-    A("*Gerado automaticamente — {total} repositórios.*".format(total=len(repos)))
+    A("*Gerado automaticamente.*")
     A("")
     return "\n".join(L)
 
