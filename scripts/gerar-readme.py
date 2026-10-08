@@ -29,12 +29,12 @@ SUITE = [
     ("vectorcraft", "VectorCraft", "Ilustração vetorial",            "Adobe Illustrator"),
 ]
 PR = {
-    "photocraft":  "aceito no upstream (PR #637 → #700); correções PR #833",
+    "photocraft":  "aceito no upstream (PR #637 → #700); correções PR #833 em revisão",
     "filmcraft":   "**mesclado** (PR #176)",
-    "lightcraft":  "PR #228 aberto",
+    "lightcraft":  "**mesclado** (PR #228)",
     "effectcraft": "PR #217 aberto",
-    "printcraft":  "PR #165 aberto (upstream `storytold/pdfcraft`)",
-    "designcraft": "PR #103 aberto",
+    "printcraft":  "**mesclado** (PR #165; upstream `storytold/pdfcraft`)",
+    "designcraft": "**mesclado** (PR #103)",
     "vectorcraft": "**mesclado** (PR #384)",
 }
 
