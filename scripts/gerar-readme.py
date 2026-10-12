@@ -43,10 +43,10 @@ UPSTREAM = {"printcraft": "pdfcraft"}
 
 # Estado da tradução pt-BR, por aplicativo.
 PTBR = {
-    "photocraft":  "aceito no upstream (PR #637 → #700); correções PR #833 em revisão",
+    "photocraft":  "**mesclado** (pt-BR pelo PR #700, a partir do nosso #637; nossas correções #833 mescladas)",
     "filmcraft":   "**mesclado** (PR #176)",
     "lightcraft":  "**mesclado** (PR #228)",
-    "effectcraft": "PR #217 aberto",
+    "effectcraft": "**mesclado** (PR #217)",
     "printcraft":  "**mesclado** (PR #165; upstream `storytold/pdfcraft`)",
     "designcraft": "**mesclado** (PR #103)",
     "vectorcraft": "**mesclado** (PR #384)",
