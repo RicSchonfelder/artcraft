@@ -52,7 +52,7 @@ PTBR = {
     "vectorcraft": "**mesclado** (PR #384)",
     "wordcraft":   "catálogo pt-BR do próprio upstream (completo; sem PR necessário)",
     "gridcraft":   "catálogo pt-BR do próprio upstream",
-    "deckcraft":   "upstream ainda sem i18n — interface em inglês",
+    "deckcraft":   "**PR [#259](https://github.com/storytold/deckcraft/pull/259) draft**, empilhado no [#34](https://github.com/storytold/deckcraft/pull/34) — catálogo pt-BR completo (1.232 linhas)",
     "soundcraft":  "upstream ainda sem i18n — interface em inglês",
     "cadcraft":    "**PR [#791](https://github.com/storytold/cadcraft/pull/791) aberto** (238 linhas; catálogo pt-BR completo)",
 }
@@ -62,7 +62,7 @@ FORKED = {"photocraft", "filmcraft", "lightcraft", "effectcraft",
           "printcraft", "designcraft", "vectorcraft"}
 
 # Forks nossos sem README.pt-BR (criados só para contribuir com a tradução).
-FORK_NO_README = {"cadcraft"}
+FORK_NO_README = {"cadcraft", "deckcraft"}
 
 
 def upstream_name(repo: str) -> str:

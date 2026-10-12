@@ -34,7 +34,7 @@ Cada aplicativo da suíte **faz o lugar de um software comercial**:
 | **VectorCraft** | Ilustração vetorial | Adobe Illustrator | [VectorCraft](https://github.com/RicSchonfelder/vectorcraft) · [README.pt-BR](https://github.com/RicSchonfelder/vectorcraft/blob/main/README.pt-BR.md) | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | **mesclado** (PR #384) |
 | **WordCraft** | Documentos de texto | Microsoft Word | — | [storytold/wordcraft](https://github.com/storytold/wordcraft) | catálogo pt-BR do próprio upstream (completo; sem PR necessário) |
 | **GridCraft** | Planilhas de cálculo | Microsoft Excel | — | [storytold/gridcraft](https://github.com/storytold/gridcraft) | catálogo pt-BR do próprio upstream |
-| **DeckCraft** | Apresentações de slides | Microsoft PowerPoint | — | [storytold/deckcraft](https://github.com/storytold/deckcraft) | upstream ainda sem i18n — interface em inglês |
+| **DeckCraft** | Apresentações de slides | Microsoft PowerPoint | [DeckCraft](https://github.com/RicSchonfelder/deckcraft) | [storytold/deckcraft](https://github.com/storytold/deckcraft) | **PR [#259](https://github.com/storytold/deckcraft/pull/259) draft**, empilhado no [#34](https://github.com/storytold/deckcraft/pull/34) — catálogo pt-BR completo (1.232 linhas) |
 | **SoundCraft** | Edição e mixagem de áudio | Adobe Audition | — | [storytold/soundcraft](https://github.com/storytold/soundcraft) | upstream ainda sem i18n — interface em inglês |
 | **CadCraft** | Desenho técnico CAD (2D/3D) | Autodesk AutoCAD | [CadCraft](https://github.com/RicSchonfelder/cadcraft) | [storytold/cadcraft](https://github.com/storytold/cadcraft) | **PR [#791](https://github.com/storytold/cadcraft/pull/791) aberto** (238 linhas; catálogo pt-BR completo) |
 
