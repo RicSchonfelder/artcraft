@@ -41,6 +41,11 @@ Cada aplicativo da suíte **faz o lugar de um software comercial**:
 Instalação no Linux, compilação e mais detalhes: veja o `README.pt-BR.md` de cada fork (links acima).
 Site da suíte: https://getartcraft.com · Discord: https://discord.gg/artcraft
 
+## 🇧🇷 Guia e glossário
+
+- **[Guia de instalação e uso no Linux (pt-BR)](GUIA-pt-BR.md)** — compilar, instalar no menu e pôr a interface em português, com as duas pegadinhas conhecidas (`craft-libs` e a categoria `X-ArtCraft`).
+- **[Glossário pt-BR](GLOSSARIO-pt-BR.md)** — o vocabulário dos catálogos por domínio (CAD, slides, texto, planilha, áudio) e as regras de estilo que os repositórios exigem.
+
 ## ♻️ Atualizar esta lista
 
 ```bash

@@ -113,6 +113,12 @@ def build(repos):
     A("Site da suíte: https://getartcraft.com · Discord: https://discord.gg/artcraft")
     A("")
 
+    A("## 🇧🇷 Guia e glossário")
+    A("")
+    A("- **[Guia de instalação e uso no Linux (pt-BR)](GUIA-pt-BR.md)** — compilar, instalar no menu e pôr a interface em português, com as duas pegadinhas conhecidas (`craft-libs` e a categoria `X-ArtCraft`).")
+    A("- **[Glossário pt-BR](GLOSSARIO-pt-BR.md)** — o vocabulário dos catálogos por domínio (CAD, slides, texto, planilha, áudio) e as regras de estilo que os repositórios exigem.")
+    A("")
+
     A("## ♻️ Atualizar esta lista")
     A("")
     A("```bash")
