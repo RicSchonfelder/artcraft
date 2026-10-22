@@ -1,0 +1,22 @@
+/* overrides específicos dos sites genéricos */
+
+/* accent derivado do hash: cada repo recebe sua cor própria via classe h-NN */
+body { --acc: var(--repo-acc, #22c55e); --acc-2: color-mix(in srgb, var(--repo-acc, #22c55e) 60%, #38bdf8); }
+body[data-theme="light"] { --grad-txt: linear-gradient(100deg, color-mix(in srgb, var(--repo-acc, #22c55e) 85%, #000), color-mix(in srgb, var(--repo-acc, #22c55e) 55%, #0284c7)); }
+
+.features--wide { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 1020px){ .features--wide { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px){ .features--wide { grid-template-columns: 1fr; } }
+
+.stats--single { margin: 0 0 14px; padding: 22px 26px; }
+.topics { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+
+/* gradiente do botão primário também acompanha a cor do repo */
+body[data-theme="light"] {
+  --grad: linear-gradient(100deg, var(--repo-acc), color-mix(in srgb, var(--repo-acc) 45%, #0284c7));
+}
+body[data-theme="dark"] {
+  --grad: linear-gradient(100deg, color-mix(in srgb, var(--repo-acc) 80%, #fff), var(--repo-acc));
+}
+body[data-theme="dark"] .btn--primary { color: #04150c; }
+body[data-theme="light"] .btn--primary { color: #fff; }

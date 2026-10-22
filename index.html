@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>artcraft — RicSchonfelder</title>
+<meta name="description" content="Suíte ArtCraft — alternativa open-source similar ao pacote Adobe: PhotoCraft≈Photoshop, FilmCraft≈Premiere Pro, LightCraft≈Lightroom, EffectCraft≈Afte"/>
+<meta property="og:title" content="artcraft"/>
+<meta property="og:description" content="Suíte ArtCraft — alternativa open-source similar ao pacote Adobe: PhotoCraft≈Photoshop, FilmCraft≈Premiere Pro, LightCraft≈Lightroom, EffectCraft≈Afte"/>
+<meta property="og:image" content="https://avatars.githubusercontent.com/RicSchonfelder?size=120"/>
+<link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/RicSchonfelder?size=120?size=64"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" href="css/overrides.css"/>
+<style>body{ --repo-acc: hsl(269 70% 42%); } body[data-theme="dark"]{ --repo-acc: hsl(269 65% 55%); }</style>
+</head>
+<body class="h-269">
+<header class="nav" id="nav">
+  <div class="nav__inner container">
+    <a class="nav__brand" href="#top"><img src="https://avatars.githubusercontent.com/RicSchonfelder?size=120?size=60" alt="" class="nav__icon" width="30" height="30"/><span>artcraft</span></a>
+    <nav class="nav__links"><a href="#features">Recursos</a><a href="#detalhes">Detalhes</a><a href="#tecnologia">Tecnologia</a></nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Alternar tema">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a class="btn btn--ghost btn--sm nav__gh" href="https://github.com/RicSchonfelder/artcraft" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        <span>GitHub</span></a>
+      <button class="hamburger" id="menu-btn" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu"><a href="#features">Recursos</a><a href="#detalhes">Detalhes</a><a href="#tecnologia">Tecnologia</a></div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy reveal">
+        <div class="hero__badges">
+          <span class="badge badge--dot"><span class="dot"></span>Python</span>
+          <span class="badge">★ 1 stars</span>
+          
+        </div>
+        <h1 class="hero__title" data-i18n-html="hero.title">artcraft</h1>
+        <p class="hero__sub">Suíte ArtCraft — alternativa open-source similar ao pacote Adobe: PhotoCraft≈Photoshop, FilmCraft≈Premiere Pro, LightCraft≈Lightroom, EffectCraft≈After Effects, PrintCraft≈Acrobat, DesignCraft≈InDesign, VectorCraft≈Illustrator. Forks com interface em pt-BR.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="https://github.com/RicSchonfelder/artcraft" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            Ver no GitHub</a>
+          
+        </div>
+        <ul class="hero__points">
+          <li class="hero__point"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg> Código aberto</li>
+          <li class="hero__point"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg> Atualizado em 2026-10-13</li>
+        </ul>
+      </div>
+      <div class="hero__stage reveal">
+        <div class="stats stats--single">
+          <div class="stat"><span class="stat__n">1</span><span class="stat__l">stars</span></div>
+          <div class="stat"><span class="stat__n" data-count="1" data-suffix="+">0</span><span class="stat__l">tópicos</span></div>
+          <div class="stat"><span class="stat__n" data-count="1" data-suffix="+">0</span><span class="stat__l">linguagens</span></div>
+          <div class="stat"><span class="stat__n">2026</span><span class="stat__l">criado em</span></div>
+        </div>
+        <div class="topics"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">Sobre</span>
+        <h2 class="section__title">artcraft</h2>
+        <p class="section__sub">Este repositório reúne os  doze aplicativos da suíte ArtCraft  — editores  clean-room  reimplementados em  Rust puro , cada um no lugar de um software comercial. Sete deles têm a  interface traduzida para o português do Brasil (pt-BR)  por mim e já mesclada no upstream (via os me</p>
+      </div>
+      <div class="features features--wide">
+        <article class="card reveal"><div class="card__icon" data-hue="269"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx='12' cy='12' r='4'/></svg></div><h3>Sobre o projeto</h3><p>Suíte ArtCraft — alternativa open-source similar ao pacote Adobe: PhotoCraft≈Photoshop, FilmCraft≈Premiere Pro, LightCraft≈Lightroom, EffectCraft≈After Effects, PrintCraft≈Acrobat, DesignCraft≈InDesign, VectorCraft≈Illustrator. Forks com interface em pt-BR.</p></article><article class="card reveal"><div class="card__icon" data-hue="269"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x='3' y='3' width='18' height='18' rx='4'/></svg></div><h3>Tecnologias</h3><p>Construído com Python.</p></article><article class="card reveal"><div class="card__icon" data-hue="269"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d='M13 2 3 14h9l-1 8 10-12h-9l1-8Z'/></svg></div><h3>Instalação</h3><p>Veja o README no GitHub para instruções de instalação e uso.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="tecnologia">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__kicker">Tecnologia</span>
+        <h2 class="section__title">Feito com</h2>
+      </div>
+      <div class="stack reveal"><div class="stack__item"><span class="stack__n">Python</span></div></div>
+      <div class="build reveal">
+        <div class="codebox codebox--static">
+          <div class="codebox__head"><span>Clonar</span></div>
+          <div class="codebox__body">
+            <code id="clone-cmd">git clone https://github.com/RicSchonfelder/artcraft.git</code>
+            <button class="copy-btn" id="copy-clone" aria-label="Copiar comando"><span>Copiar</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container reveal">
+      <h2>Explore o projeto.</h2>
+      <p>Código, issues e versões — tudo aberto.</p>
+      <a class="btn btn--primary btn--lg" href="https://github.com/RicSchonfelder/artcraft" target="_blank" rel="noopener">Ver repositório no GitHub</a>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand"><img src="https://avatars.githubusercontent.com/RicSchonfelder?size=120?size=60" alt="" width="26" height="26"/><span>artcraft</span></div>
+    <p class="footer__copy">Repositório público de <a href="https://github.com/RicSchonfelder" target="_blank" rel="noopener">@RicSchonfelder</a></p>
+    <div class="footer__links"><a href="https://github.com/RicSchonfelder/artcraft" target="_blank" rel="noopener">GitHub</a><a href="https://github.com/RicSchonfelder/artcraft/issues" target="_blank" rel="noopener">Issues</a></div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/analytics.js"></script>
+<script>
+if (window.GA_MEASUREMENT_ID && /^G-/.test(window.GA_MEASUREMENT_ID)) {
+  var s = document.createElement("script");
+  s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=" + window.GA_MEASUREMENT_ID;
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date()); gtag("config", window.GA_MEASUREMENT_ID);
+}
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
