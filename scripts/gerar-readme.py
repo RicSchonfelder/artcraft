@@ -47,10 +47,10 @@ PTBR = {
     "filmcraft":   "**mesclado** (PR #176). +68 linhas: PR [#3818](https://github.com/storytold/filmcraft/pull/3818)",
     "lightcraft":  "**mesclado** (PR #228)",
     "effectcraft": "**mesclado** (PR #217)",
-    "printcraft":  "**mesclado** (PR #165; upstream `storytold/pdfcraft`)",
+    "printcraft":  "**mesclado** (PR #165; upstream `storytold/pdfcraft`). +7 linhas que estavam em inglês: PR [#5610](https://github.com/storytold/pdfcraft/pull/5610)",
     "designcraft": "**mesclado** (PR #103)",
     "vectorcraft": "**mesclado** (PR #384). +174 linhas: PR [#4996](https://github.com/storytold/vectorcraft/pull/4996)",
-    "wordcraft":   "catálogo pt-BR do próprio upstream (completo; sem PR necessário)",
+    "wordcraft":   "catálogo pt-BR em `storytold/craft-i18n` — o **maior** dos 36 locales (3.779 linhas efetivas). +20 linhas que só o alemão tinha: PR [#100](https://github.com/storytold/craft-i18n/pull/100)",
     "gridcraft":   "catálogo pt-BR do próprio upstream",
     "deckcraft":   "**PR [#259](https://github.com/storytold/deckcraft/pull/259) draft**, empilhado no [#34](https://github.com/storytold/deckcraft/pull/34) — catálogo pt-BR completo (1.232 linhas); o upstream não tem i18n, pelo que o 0.13.1 instalado está em inglês",
     "soundcraft":  "upstream ainda sem i18n — interface em inglês",
@@ -178,6 +178,10 @@ def build(repos):
     A("| **PhotoCraft** | 245 | [#10573](https://github.com/storytold/photocraft/pull/10573) |")
     A("| **VectorCraft** | 174 | [#4996](https://github.com/storytold/vectorcraft/pull/4996) |")
     A("| **FilmCraft** | 68 | [#3818](https://github.com/storytold/filmcraft/pull/3818) |")
+    A("| **PdfCraft** (PrintCraft) | 7 que estavam em inglês | [#5610](https://github.com/storytold/pdfcraft/pull/5610) |")
+    A("| **WordCraft** (catálogo partilhado) | 20 | [#100](https://github.com/storytold/craft-i18n/pull/100) |")
+    A("")
+    A("**Varredura de trechos sem traduzir** (31/10/2026, todos os catálogos dos 12 apps): só o PdfCraft tinha linhas com a tradução igual ao inglês (7, agora no PR #5610); PhotoCraft, FilmCraft, VectorCraft, CadCraft, DesignCraft, LightCraft, GridCraft, EffectCraft e DeckCraft não têm nenhuma linha em inglês (os termos iguais são nomes de produto, formatos, teclas e unidades). No WordCraft, o pt-BR é o catálogo mais completo dos 36 locales e só faltavam as 20 linhas que apenas o alemão tinha.")
     A("")
     A("Pendente: **DeckCraft** — o catálogo pt-BR existe (#259, 1.232 linhas), mas o upstream "
       "refatorou a UI em ~1.700 commits desde o branch, e o `i18n` nunca foi mesclado. Portar exige "
