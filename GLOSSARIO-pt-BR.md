@@ -9,8 +9,10 @@ Serve para dois propósitos:
    recebe o mesmo termo em português em todos os apps.
 
 > Fonte: os catálogos contribuídos — FilmCraft #176, LightCraft #228, EffectCraft #217, PdfCraft
-> #165, DesignCraft #103, VectorCraft #384, PhotoCraft #700/#833 (mesclados), CadCraft #791 (aberto)
-> e DeckCraft #259 (empilhado em #34). Os termos abaixo foram conferidos nesses arquivos.
+> #165, DesignCraft #103, VectorCraft #384, PhotoCraft #700/#833 e CadCraft #791 (mesclados; em
+> 31/10/2026 veio uma segunda leva de linhas: CadCraft #2581, PhotoCraft #10573, VectorCraft #4996
+> e FilmCraft #3818) e DeckCraft #259 (empilhado em #34, ainda draft). Os termos abaixo foram
+> conferidos nesses arquivos.
 
 ## Interface (comum a todos)
 

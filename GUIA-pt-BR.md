@@ -35,7 +35,31 @@ em português**. Escrito a partir do que foi realmente executado nesta máquina 
 - Os fontes compartilhados (**craft-fonts**) são um *input opcional* do build, mas o resultado fica
   muito melhor com eles.
 
-## Passo a passo
+## Atalho: instalar a release oficial (sem compilar)
+
+Desde outubro de 2026 o upstream publica binários para Linux x86_64 em cada release. É o caminho
+mais rápido para **atualizar** — e o que foi usado nesta máquina em 31/10/2026:
+
+```bash
+APP=photocraft                       # nome do pacote (PrintCraft = pdfcraft)
+VER=$(gh release view -R storytold/$APP --json tagName -q .tagName); V=${VER#v}
+gh release download "$VER" -R storytold/$APP \
+  -p "$APP-$V-linux-x86_64.tar.gz" -p SHA256SUMS.txt
+sha256sum "$APP-$V-linux-x86_64.tar.gz"      # comparar com SHA256SUMS.txt
+tar xzf "$APP-$V-linux-x86_64.tar.gz"
+install -m755 "$APP-$V-linux-x86_64/bin/$APP"     "$HOME/Projetos/Programas/$APP/bin/$APP"
+install -m755 "$APP-$V-linux-x86_64/bin/$APP-cli" "$HOME/Projetos/Programas/$APP/bin/$APP-cli"
+```
+
+Depois **copie o `.desktop` e os ícones** do próprio tarball (`share/applications/`,
+`share/icons/hicolor/`), trocando o `Exec=`/`TryExec=` pelo caminho acima e acrescentando
+`X-ArtCraft;` às `Categories=` — é a pegadinha nº 2 do fim deste guia. O tarball também traz
+`share/man/`, `share/metainfo/` e `share/mime/`, que podem ir para `~/.local/share/`.
+
+Compilar (abaixo) continua a ser o caminho para testar um branch com tradução nova — por exemplo o
+`i18n/pt-br` do DeckCraft, que o upstream ainda não mesclou.
+
+## Passo a passo (compilar)
 
 ### 1. Rust e os fontes
 
